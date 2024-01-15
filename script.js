@@ -1,5 +1,5 @@
 function makeid(l) {
-	const s = '';
+	let s = '';
 	const alpha = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
 
 	for(let i =0;i<l;i++){
