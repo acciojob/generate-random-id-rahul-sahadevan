@@ -1,4 +1,16 @@
 function makeid(l) {
+	const s = '';
+	const alpha = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
+
+	for(let i =0;i<l;i++){
+		const random = Math.floor(Math.random() * alpha.length)
+		s += alpha[random]
+	}
+
+	return s;
+
+
+	
   // write your code here
 }
 
